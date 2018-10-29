@@ -3,10 +3,39 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
+    <modelVersion>4.0.0</modelVersion>
+
     <groupId>de.yannickfricke</groupId>
     <artifactId>envloader</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modelVersion>4.0.0</modelVersion>
+    <inceptionYear>2018</inceptionYear>
+    <url>https://github.com/YannickFricke/Envloader-Java</url>
+
+    <scm>
+        <url>https://github.com/YannickFricke/Envloader-Java</url>
+        <connection>scm:git:git@github.com:YannickFricke/Envloader-Java.git</connection>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>https://opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+
+    <issueManagement>
+        <url>https://github.com/YannickFricke/Envloader-Java/issues</url>
+    </issueManagement>
+
+    <contributors>
+        <contributor>
+            <name>Yannick Fricke</name>
+            <url>https://github.com/YannickFricke</url>
+            <roles>
+                <role>Maintainer</role>
+            </roles>
+        </contributor>
+    </contributors>
 
     <properties>
         <jdk.version>1.8</jdk.version>
